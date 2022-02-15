@@ -6,6 +6,7 @@ public enum OutputType {
 
 	  HTML(IRenderOption.OUTPUT_FORMAT_HTML)
 	, PDF(IRenderOption.OUTPUT_FORMAT_PDF)
+	, FO(IRenderOption.OUTPUT_FORMAT_FO) // @Trifon - acts like PDF!
 	, INVALID("invalid")
 	;
 
